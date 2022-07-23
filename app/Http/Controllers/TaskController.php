@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Services\TaskService;
-use http\Env\Request;
+use Illuminate\Http\Request;
 
 
 class TaskController extends Controller
@@ -23,9 +23,10 @@ class TaskController extends Controller
 
     public function store(Request $request)
     {
+
         return $this->service->store([
             'name'=> $request->name,
-            'licence' => $request->licence
+            'licenceNumber' => $request->licence
         ]);
     }
 

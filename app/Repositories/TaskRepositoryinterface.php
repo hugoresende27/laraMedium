@@ -2,6 +2,8 @@
 
 namespace App\Repositories;
 
+use Illuminate\Database\Eloquent\Model;
+
 interface TaskRepositoryinterface
 {
     public function __construct(Model $model);
