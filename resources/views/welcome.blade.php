@@ -4,8 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<<<<<<< HEAD
         <title>Hugo Resnde</title>
        
+=======
+        <title>Laraveasdadasddasdasdaaddasdasdasdasdadl</title>
+        
+        <title>Laravel</title>
+>>>>>>> f7e563a5f8852a98f91a90f26e18beacd223a3d2
         
 
         <!-- Fonts -->
